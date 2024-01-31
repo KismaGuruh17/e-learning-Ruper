@@ -11,6 +11,7 @@ class Submision extends Model
 {
     use HasFactory;
     protected $table = 'submisions';
+    protected $guarded =['id'];
 
     public function tugas() {
         return $this->belongsTo(Tugas::class, 'tugas_id');
