@@ -11,6 +11,7 @@ class Tugas extends Model
 {
     use HasFactory;
     protected $table = 'tugas';
+    protected $guarded =['id'];
 
     public function mapel() {
         return $this->belongsTo(Mapel::class, 'mapel_id');
