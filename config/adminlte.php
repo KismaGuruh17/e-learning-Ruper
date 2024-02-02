@@ -312,11 +312,10 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Siswa',
+            'url'         => 'admin/siswa',
+            'icon'        => 'fas fa-users',
+            // Tambahkan 'can' jika ingin menentukan izin akses
         ],
         ['header' => 'account_settings'],
         [
